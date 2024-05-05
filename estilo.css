@@ -1,0 +1,206 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-color: rgb(204, 231, 238);
+}
+
+label {
+  display: block;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.lista-personas {
+  list-style-type: none;
+  padding: 0;
+}
+
+.persona-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.eliminar-btn {
+  cursor: pointer;
+  color: red;
+  margin-left: 10px;
+}
+
+#logo {
+  max-width: 200px; /* Ajusta el tamaño máximo del logo según tus necesidades */
+  margin-bottom: 20px;
+}
+
+.aside {
+  
+  text-align: center; 
+}
+
+.contenedor {
+  width: 50%; 
+  margin: 0 auto; 
+  text-align: center; 
+}
+
+.contenedor div {
+  text-align: left; /* Ajusta el texto dentro de los divs internos */
+}
+
+.barra-progreso {
+  width: 100%;
+  background-color: #ddd;
+  height: 20px;
+  margin-top: 10px;
+}
+
+#fileInput {
+  display: none;
+}
+.texto-principal {
+  margin-bottom: 30px;
+}
+
+.diferencias,
+.razones-elegir {
+  margin-bottom: 20px;
+}
+
+.diferencias ul,
+.razones-elegir ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.llamado-accion {
+  font-style: italic;
+  color: #666;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.div {
+  margin-top: 20px;
+  font-size: 20px;
+}
+#contadorImagen {
+  display: block;
+  margin: 20px auto; /* Centra la imagen horizontalmente */
+  width: 150px; /* O ajusta según el tamaño deseado */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+.container {
+  display: flex;
+  justify-content: space-around; /* Distribuye espacio uniformemente entre los contadores */
+  align-items: center; /* Alinea los ítems verticalmente */
+  margin-top: 20px;
+}
+
+.counter-box {
+  text-align: center; /* Centra el texto y los elementos dentro del div */
+  margin: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block; /* Hace que el botón se ajuste al ancho de su contenedor */
+  margin: 10px auto; /* Centra el botón horizontalmente y da espacio vertical */
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.div#contador {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.img {
+  width: 150px; /* Ajusta según el tamaño deseado */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block; /* Hace que la imagen se ajuste al ancho de su contenedor */
+  margin: 10px auto; /* Centra la imagen horizontalmente y da espacio vertical */
+}
+.container {
+  display: flex;
+  justify-content: space-around; /* Distribuye espacio uniformemente entre los contadores */
+  align-items: center; /* Alinea los ítems verticalmente */
+  flex-wrap: wrap; /* Permite que los ítems se envuelvan según el espacio disponible */
+  margin-top: 20px;
+}
+
+.counter-box {
+  flex: 1;  /* Da a cada caja una parte igual del espacio disponible */
+  min-width: 200px; /* Asegura un ancho mínimo para cada caja */
+  max-width: 300px; /* Asegura un ancho máximo para evitar que sea demasiado grande */
+  text-align: center; /* Centra el texto y los elementos dentro del div */
+  margin: 10px; /* Espaciado alrededor de cada caja */
+  padding: 10px; /* Padding dentro de cada caja */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Opcional: agrega sombra para mejor visualización */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block; /* Hace que el botón se ajuste al ancho de su contenedor */
+  margin: 10px auto; /* Centra el botón horizontalmente y da espacio vertical */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+div#contador0, div#contador1, div#contador2 {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+img {
+  width: 150px; /* Ajusta según el tamaño deseado */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block; /* Hace que la imagen se ajuste al ancho de su contenedor */
+  margin: 10px auto; /* Centra la imagen horizontalmente y da espacio vertical */
+}
+
+       
